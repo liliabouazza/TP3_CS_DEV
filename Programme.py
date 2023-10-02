@@ -9,3 +9,10 @@ from random import random
 
 fichier = open('mots.txt';'r')
 
+meilleur_score = 0
+
+def Choisir_mot():
+    mot = random.choice(fichier)
+    return mot
+
+print(Choisir_mot())
